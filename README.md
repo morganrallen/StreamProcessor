@@ -37,6 +37,4 @@ http.createServer(function(request, response) {
 
   request.pipe(proxy_request);
 }).listen(8080);
-
-var
 ```
