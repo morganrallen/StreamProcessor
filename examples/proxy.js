@@ -1,12 +1,3 @@
-StreamProcessor
-===============
-
-An inline Stream that can process data coming through before piping to another Stream
-
-example
-=======
-
-``` js
 // silly example that reverses the titles of pages
 var http = require('http'),
 	StreamProcessor = require("..");
@@ -30,13 +21,9 @@ http.createServer(function(request, response) {
   var proxy = http.createClient(80, request.headers['host'])
   var proxy_request = proxy.request(request.method, request.url, request.headers);
   proxy_request.on('response', function (proxy_response) {
-        // inline the processor
         proxy_response.pipe(titleReverse).pipe(response);
         response.writeHead(proxy_response.statusCode, proxy_response.headers);
   });
 
   request.pipe(proxy_request);
 }).listen(8080);
-
-var
-```

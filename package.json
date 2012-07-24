@@ -1,0 +1,29 @@
+{
+  "name": "StreamProcessor",
+  "preferGlobal": "true",
+  "version": "0.0.5",
+  "author": "Morgan 'ARR!' Allen",
+  "description": "An inline Stream that can process data coming through before piping to another Stream",
+  "contributors": [ 
+    {
+      "name": "Morgan 'ARR!' Allen",
+      "email": "morganrallen@gmail.com"
+    } 
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "streams",
+    "buffer"
+  ],
+  "devDpendencies" : {
+    "colors"   :  "*"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.6"
+  }
+}
+
