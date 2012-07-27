@@ -1,5 +1,5 @@
 {
-  "name": "StreamProcessor",
+  "name": "streamprocessor",
   "preferGlobal": "true",
   "version": "0.0.5",
   "author": "Morgan 'ARR!' Allen",
@@ -14,12 +14,16 @@
     "type": "git",
     "url": "git://github.com/morganrallen/StreamProcessor.git"
   },
+  "scripts": {
+    "test": "node ./test/tests.js"
+  },
   "keywords": [
     "streams",
     "buffer"
   ],
   "devDpendencies" : {
-    "colors"   :  "*"
+    "colors"   :  "*",
+    "vows": "0.6.*"
   },
   "license": "MIT",
   "engine": {
