@@ -3,6 +3,8 @@ StreamProcessor
 
 An inline Stream that can process data coming through before piping to another Stream
 
+[![Build Status](https://secure.travis-ci.org/morganrallen/StreamProcessor.png)](http://travis-ci.org/morganrallen/StreamProcessor)
+
 example
 =======
 
