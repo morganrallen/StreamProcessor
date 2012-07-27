@@ -21,9 +21,9 @@
     "streams",
     "buffer"
   ],
-  "devDpendencies" : {
+  "devDependencies" : {
     "colors"   :  "*",
-    "vows": "0.6.*"
+    "vows": "0.6.x"
   },
   "license": "MIT",
   "engine": {
