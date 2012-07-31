@@ -1,7 +1,7 @@
 {
   "name": "streamprocessor",
   "preferGlobal": "true",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Morgan 'ARR!' Allen",
   "description": "An inline Stream that can process data coming through before piping to another Stream",
   "contributors": [ 
